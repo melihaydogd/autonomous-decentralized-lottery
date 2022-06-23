@@ -272,6 +272,11 @@ const Lottery = () => {
             </nav>
             <section>
                 <div className="container">
+                    <h2>To use this lottery, TL Token should be sent to you from bank account.</h2>
+                </div>
+            </section>
+            <section>
+                <div className="container">
                     <h2>TL Token Contract Address: {tlTokenAddress}</h2>
                 </div>
             </section>
@@ -373,7 +378,7 @@ const Lottery = () => {
             />
             <section>
                 <div className="container mt-5">
-                    <h1>Lottery Ticket Contract Function</h1>
+                    <h1>Lottery Ticket Contract Functions</h1>
                 </div>
             </section>
             <TwoInputButton
@@ -406,7 +411,7 @@ const Lottery = () => {
             />
             <section>
                 <div className="container mt-5">
-                    <h1>Lottery Contract Function</h1>
+                    <h1>Lottery Contract Functions</h1>
                 </div>
             </section>
             <OneInputButton
