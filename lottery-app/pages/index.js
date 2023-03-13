@@ -30,7 +30,7 @@ const Lottery = () => {
     
     const connectWallet = async () => {
         // Checking MetaMask
-        if (typeof window !== "undefined" && window.ethereum !== "undefined") {
+        if (typeof window !== undefined && window.ethereum !== undefined) {
             try {
                 // Request connect to wallet
                 await window.ethereum.request({method:"eth_requestAccounts"})
